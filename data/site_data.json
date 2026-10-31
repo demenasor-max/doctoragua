@@ -1,0 +1,309 @@
+{
+  "company": {
+    "name": "Doctor Agua",
+    "handle": "@doctoraguavzla",
+    "tagline": "Agua 100% Pura, Saludable y Certificada",
+    "badge": "Certificación de Grado Sanitario y Clínico",
+    "phone": "0422-8013796",
+    "phoneRaw": "+584228013796",
+    "whatsapp": "+58 422 801 3796",
+    "whatsappNumber": "584228013796",
+    "email": "contacto@doctoraguavzla.com",
+    "address": "Av. Principal, Edificio Manantial Salud, Local Doctor Agua, Venezuela",
+    "city": "Venezuela",
+    "schedule": "Lun - Sáb: 7:30 AM - 6:30 PM | Dom: 8:00 AM - 2:00 PM",
+    "instagramUrl": "https://instagram.com/doctoraguavzla",
+    "whatsappUrl": "https://wa.me/584228013796?text=Hola%20Doctor%20Agua!%20Deseo%20hacer%20un%20pedido%20de%20agua%20purificada."
+  },
+  "navigation": [
+    { "name": "Inicio", "url": "#inicio" },
+    { "name": "¿Por qué Nosotros?", "url": "#beneficios" },
+    { "name": "Proceso de Purificación", "url": "#proceso" },
+    { "name": "Productos y Servicios", "url": "#productos" },
+    { "name": "Calculadora", "url": "#calculadora" },
+    { "name": "Testimonios", "url": "#testimonios" },
+    { "name": "Contacto", "url": "#contacto" }
+  ],
+  "hero": {
+    "pillBadge": "💧 Pureza Médica y Calidad Certificada",
+    "titlePart1": "Agua 100% Pura y Saludable para tu",
+    "titleHighlight": "Hogar y Empresa",
+    "description": "En Doctor Agua fusionamos tecnología de filtrado multietapa avanzada con estándares biomédicos para ofrecerte un agua cristalina, libre de metales pesados y equilibrada para el bienestar de toda tu familia.",
+    "ctaWhatsappText": "Pedir a Domicilio",
+    "ctaServicesText": "Conoce Nuestros Procesos",
+    "stats": [
+      { "number": "99.9%", "label": "Pureza microbiológica", "sub": "Cero bacterias ni sedimentos" },
+      { "number": "7.5 - 8.0", "label": "Nivel de pH óptimo", "sub": "Alcalinidad saludable" },
+      { "number": "8 Etapas", "label": "Filtrado de precisión", "sub": "Ósmosis + UV + Ozono" },
+      { "number": "+25K", "label": "Botellones llenados", "sub": "Clientes satisfechos en Vzla" }
+    ],
+    "heroImage": "assets/images/doctor-agua-mascota-bienestar.png",
+    "heroSubImage": "assets/images/botellon-salud.png"
+  },
+  "benefits": [
+    {
+      "icon": "fa-solid fa-microscope",
+      "title": "Pureza de Grado Clínico",
+      "description": "Nuestros análisis periódicos garantizan agua 100% libre de parásitos, cloro residual, plomo, flúor y microplásticos perjudiciales.",
+      "tag": "Seguridad Total"
+    },
+    {
+      "icon": "fa-solid fa-dna",
+      "title": "Minerales Esenciales Equilibrados",
+      "description": "Conservamos los electrolitos vitales (calcio, magnesio y potasio) para una hidratación celular profunda y revitalizante.",
+      "tag": "pH Balanceado"
+    },
+    {
+      "icon": "fa-solid fa-bolt",
+      "title": "Recarga Express y Delivery Rápido",
+      "description": "Estación de llenado ultrarrápida sin colas y servicio de despacho a domicilio puntual con botellones sanitizados herméticamente.",
+      "tag": "Comodidad"
+    },
+    {
+      "icon": "fa-solid fa-hand-holding-dollar",
+      "title": "Precios Transparentes y Justos",
+      "description": "Planes económicos para familias, condominios, clínicas, oficinas y comercios sin comprometer un solo ápice de calidad.",
+      "tag": "El Mejor Valor"
+    }
+  ],
+  "purificationSteps": [
+    {
+      "step": "01",
+      "name": "Microfiltración de Sedimentos",
+      "tech": "Polipropileno 5 a 1 micras",
+      "description": "Retiene partículas suspendidas, tierra, óxido, polvo y sedimentos visibles presentes en el suministro primario.",
+      "icon": "fa-solid fa-filter"
+    },
+    {
+      "step": "02",
+      "name": "Carbón Activado Granular (GAC)",
+      "tech": "Cáscara de coco virgen",
+      "description": "Elimina el cloro, compuestos orgánicos volátiles, pesticidas, olores y sabores indeseados de forma natural.",
+      "icon": "fa-solid fa-cube"
+    },
+    {
+      "step": "03",
+      "name": "Suavizador de Dureza",
+      "tech": "Resina de intercambio iónico catiónico",
+      "description": "Extrae el exceso de carbonatos de calcio y magnesio, evitando el sarro y brindando una suavidad exquisita al paladar.",
+      "icon": "fa-solid fa-droplet-slash"
+    },
+    {
+      "step": "04",
+      "name": "Ósmosis Inversa (RO)",
+      "tech": "Membrana semipermeable TFC 0.0001 micras",
+      "description": "El corazón del sistema: separa a nivel molecular sales disueltas, virus, bacterias, arsénico y metales pesados.",
+      "icon": "fa-solid fa-atom"
+    },
+    {
+      "step": "05",
+      "name": "Remineralización y Alcalinización",
+      "tech": "Lecho de biocerámica natural",
+      "description": "Añade trazas benignas de minerales bioasimilables para alcanzar un pH 7.5-8.0 altamente hidratante y antioxidante.",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "step": "06",
+      "name": "Desinfección Ultravioleta (UV-C)",
+      "tech": "Lámparas germicidas a 254 nm",
+      "description": "Neutraliza el ADN de cualquier microorganismo residual al 99.99% sin alterar las propiedades organolépticas del agua.",
+      "icon": "fa-solid fa-sun"
+    },
+    {
+      "step": "07",
+      "name": "Esterilización por Ozonización",
+      "tech": "Gas Ozono O3 reactivo",
+      "description": "Asegura que el agua envasada permanezca esterilizada dentro del envase por largo tiempo gracias a su poder oxidante ecológico.",
+      "icon": "fa-solid fa-shield-virus"
+    },
+    {
+      "step": "08",
+      "name": "Envasado en Cabina Aséptica",
+      "tech": "Lavado triple y sellado termorretráctil",
+      "description": "Higienizado interno del envase con agua ozonizada, llenado automático y colocación de precinto de seguridad sellado.",
+      "icon": "fa-solid fa-wine-bottle"
+    }
+  ],
+  "products": [
+    {
+      "id": "recarga-20l",
+      "name": "Recarga de Botellón 20L",
+      "category": "botellones",
+      "badge": "Más Solicitado",
+      "popular": true,
+      "price": "$1.50",
+      "priceDetails": "o al cambio oficial del día",
+      "image": "assets/images/botellon-salud.png",
+      "description": "Llenado con agua ultra purificada en 8 etapas. Incluye lavado interno ozonizado y sellado hermético.",
+      "features": [
+        "Lavado interior y exterior ozonizado",
+        "Tapa sellada con banda de seguridad",
+        "Garantía de sabor neutro y frescura",
+        "Tiempo de llenado: menos de 2 minutos"
+      ],
+      "whatsappMessage": "Hola Doctor Agua! Deseo solicitar una Recarga de Botellón de 20L."
+    },
+    {
+      "id": "botellon-nuevo-20l",
+      "name": "Botellón Nuevo 20L + Llenado",
+      "category": "botellones",
+      "badge": "Kit Completo",
+      "popular": false,
+      "price": "$12.00",
+      "priceDetails": "Envase PET virgen libre de BPA",
+      "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=600&q=80",
+      "description": "Envase resistente y transparente de 20 litros, libre de bisfenol A, con asa ergonómica y primer llenado incluido.",
+      "features": [
+        "Plástico virgen grado alimenticio 100% BPA Free",
+        "Asa ergonómica reforzada",
+        "Incluye 20L de agua purificada Doctor Agua",
+        "Tapa antiderrame y precinto inviolable"
+      ],
+      "whatsappMessage": "Hola Doctor Agua! Deseo comprar un Botellón Nuevo de 20L con llenado."
+    },
+    {
+      "id": "bidon-5l",
+      "name": "Galón / Bidón de 5L",
+      "category": "hogar",
+      "badge": "Práctico & Ligero",
+      "popular": false,
+      "price": "$1.00",
+      "priceDetails": "Ideal para neveras y oficinas",
+      "image": "https://images.unsplash.com/photo-1564419320461-6870880221ad?auto=format&fit=crop&w=600&q=80",
+      "description": "La medida perfecta para espacios compactos, viajes familiares o consumo directo sin dispensador grande.",
+      "features": [
+        "Fácil manipulación y almacenamiento",
+        "Asa integrada de transporte",
+        "Sellado con precinto de inviolabilidad",
+        "Agua alcalina y ligera"
+      ],
+      "whatsappMessage": "Hola Doctor Agua! Me interesa el Bidón de 5 Litros."
+    },
+    {
+      "id": "dispensador-bomba",
+      "name": "Dispensador Eléctrico USB",
+      "category": "accesorios",
+      "badge": "Tecnología",
+      "popular": false,
+      "price": "$8.50",
+      "priceDetails": "Batería recargable de larga duración",
+      "image": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?auto=format&fit=crop&w=600&q=80",
+      "description": "Bomba dispensadora eléctrica que se coloca directamente en el pico del botellón. Sirve agua con un toque.",
+      "features": [
+        "Carga vía cable micro-USB universal",
+        "Rinde hasta 5 botellones por carga",
+        "Tubo de silicona grado médico",
+        "Apagado automático de seguridad"
+      ],
+      "whatsappMessage": "Hola Doctor Agua! Quiero adquirir un Dispensador Eléctrico USB."
+    },
+    {
+      "id": "hielo-purificado",
+      "name": "Bolsa de Hielo Purificado 3kg",
+      "category": "hielo",
+      "badge": "Cristalino",
+      "popular": false,
+      "price": "$1.80",
+      "priceDetails": "Hielo gourmet cilíndrico",
+      "image": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=600&q=80",
+      "description": "Cubos de hielo transparentes y sólidos, fabricados exclusivamente con agua tratada en nuestras 8 etapas.",
+      "features": [
+        "100% agua de ósmosis inversa",
+        "No altera el sabor de tus bebidas",
+        "Descongelamiento uniforme y duradero",
+        "Bolsa sellada de alta resistencia"
+      ],
+      "whatsappMessage": "Hola Doctor Agua! Deseo pedir bolsas de Hielo Purificado."
+    },
+    {
+      "id": "plan-corporativo",
+      "name": "Plan Corporativo / Empresas",
+      "category": "empresas",
+      "badge": "Ahorro & Convenio",
+      "popular": true,
+      "price": "Cotizar",
+      "priceDetails": "Facturación fiscal y entregas programadas",
+      "image": "assets/images/botellones-negocio.png",
+      "description": "Suministro continuo para oficinas, consultorios, gimnasios, obras y comercios con despacho prioritario.",
+      "features": [
+        "Descuentos por volumen semanal/mensual",
+        "Rutas de entrega fijas semanales",
+        "Factura legal conforme a la normativa",
+        "Mantenimiento gratuito de dispensadores"
+      ],
+      "whatsappMessage": "Hola Doctor Agua! Deseo solicitar información para un Plan Corporativo para mi empresa."
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "delivery-oficial",
+      "tag": "¡Llamada Directa o WhatsApp!",
+      "title": "Haz tu pedido y nosotros te lo llevamos",
+      "subtitle": "Hasta la puerta de tu negocio, empresa o residencia",
+      "phone": "0422-8013796",
+      "image": "assets/images/delivery-negocio.png",
+      "ctaText": "Pedir al 0422-8013796",
+      "whatsappMessage": "Hola Doctor Agua! Vi el servicio de despacho en motocarro y deseo hacer un pedido para mi negocio."
+    },
+    {
+      "id": "regreso-clases",
+      "tag": "Salud Infantil & Familiar",
+      "title": "Regreso a Clases con Doctor Agua",
+      "subtitle": "La hidratación también va a clases. Cuida el rendimiento y la vitalidad de tus hijos con agua 100% pura y libre de gérmenes.",
+      "image": "assets/images/promo-escolar.png",
+      "ctaText": "Consultar Promoción Escolar",
+      "whatsappMessage": "Hola Doctor Agua! Quisiera información sobre la promoción de Regreso a Clases e hidratación infantil."
+    }
+  ],
+  "calculatorOptions": {
+    "title": "Calculadora de Hidratación y Ahorro Familiar",
+    "subtitle": "Descubre cuántos litros necesita tu hogar o negocio al mes y cuánto ahorras eligiendo Doctor Agua",
+    "consumptionPerPerson": 2.2,
+    "daysPerMonth": 30,
+    "bottleVolume": 20
+  },
+  "testimonials": [
+    {
+      "name": "Dra. Mariana Valero",
+      "role": "Médico Pediatra",
+      "comment": "Como médico recomiendo Doctor Agua a todos mis pacientes con niños pequeños. El agua tiene un sabor neutro increíble y el proceso de ósmosis y UV da total tranquilidad para preparar fórmulas y comidas.",
+      "stars": 5,
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1594824813629-798835f299f0?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "name": "Carlos Mendoza",
+      "role": "Vecino & Padre de Familia",
+      "comment": "Llegaba cansado de comprar agua que sabía a cloro o tierra en otros sitios. Con Doctor Agua el servicio de recarga es impecable, te lavan el botellón por dentro con ozono y el trato es de 10 estrellas.",
+      "stars": 5,
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "name": "Ing. Sofía Carballo",
+      "role": "Gerente de Operaciones en Coworking",
+      "comment": "Tenemos el plan corporativo para más de 45 personas en la oficina. Son súper puntuales, los botellones vienen perfectamente sellados y el precio es inmejorable.",
+      "stars": 5,
+      "verified": true,
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80"
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Por qué el agua de Doctor Agua es superior a un filtro casero común?",
+      "answer": "Los filtros residenciales convencionales solo retienen sedimentos gruesos y cloro, pero no remueven metales pesados disueltos, bacterias microscópicas ni regulan la alcalinidad. Doctor Agua opera una planta industrial de grado farmacéutico con 8 fases, incluyendo ósmosis inversa molecular, desinfección UV-C e inyección de ozono."
+    },
+    {
+      "question": "¿Cómo garantizan la higiene de mi botellón al recargarlo?",
+      "answer": "Cada botellón que entra a nuestra planta pasa primero por una inspección ocular y luego por una cámara de lavado y enjuague a presión con solución hidro-ozonizada. Finalmente se llena en cabina protegida y se le coloca un tapón con precinto de seguridad termorretráctil."
+    },
+    {
+      "question": "¿Tienen servicio de entrega a domicilio (Delivery)?",
+      "answer": "¡Sí! Realizamos despachos programados y pedidos express en toda nuestra zona de cobertura. Puedes ordenar fácilmente a través de nuestro botón directo de WhatsApp o llamando a nuestras líneas de atención."
+    },
+    {
+      "question": "¿Cuáles son las formas de pago aceptadas?",
+      "answer": "Aceptamos Pago Móvil, transferencias bancarias en bolívares (a la tasa oficial del BCV), divisas en efectivo ($ y €), Zelle y tarjetas de débito en nuestro punto de venta en planta."
+    }
+  ]
+}

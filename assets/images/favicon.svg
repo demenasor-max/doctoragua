@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <!-- Gradiente oficial del cuerpo de la gota (azul cian luminoso a azul océano) -->
+    <linearGradient id="favDropGrad" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#00c2f3"/>
+      <stop offset="30%" stop-color="#00a3e8"/>
+      <stop offset="65%" stop-color="#007ecc"/>
+      <stop offset="100%" stop-color="#005ea6"/>
+    </linearGradient>
+
+    <!-- Sombra cóncava 3D para la cavidad superior -->
+    <radialGradient id="favHoleShadow" cx="50%" cy="30%" r="55%" fx="45%" fy="25%">
+      <stop offset="0%" stop-color="#003566" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#004d88" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#007ecc" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradiente de iluminación de la cinta frontal -->
+    <linearGradient id="favRibbon" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#3de2ff"/>
+      <stop offset="45%" stop-color="#00aaef"/>
+      <stop offset="100%" stop-color="#006eb8"/>
+    </linearGradient>
+
+    <!-- Sombra inferior debajo del puente central -->
+    <linearGradient id="favUnderShadow" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#00376b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0066b2" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Bisel de iluminación interior derecho -->
+    <linearGradient id="favBevel" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#b8eeff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#007ecc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Pared interior 3D (profundidad en el orificio inferior) -->
+    <linearGradient id="favInnerWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d6ebfa" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#80b8de" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#005ea6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- MÁSCARA TRANSPARENTE: Perfora las dos aberturas sin fondo blanco -->
+    <mask id="favHolesMask">
+      <rect x="-20" y="-20" width="140" height="140" fill="#ffffff"/>
+      <path d="M 36 45 C 42 36, 54 35, 67 40 C 63 45, 52 46, 42 47 C 38 47.5, 36 46.5, 36 45 Z" fill="#000000"/>
+      <path d="M 52 54 C 62 53, 73 61, 73 73 C 73 82, 65 87, 57 85 C 48 83, 47 72, 50 63 C 51 58, 52 55, 52 54 Z" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <!-- ISOTIPO OFICIAL TRANSPARENTE DOCTOR AGUA (SIN FONDO BLANCO) -->
+  <g>
+    <!-- Cuerpo de la gota con orificios pasantes transparentes -->
+    <g mask="url(#favHolesMask)">
+      <!-- 1. Silueta exterior de la gota de agua -->
+      <path d="M 50 4
+               C 52 6, 88 40, 88 64
+               C 88 85, 71 97, 50 97
+               C 29 97, 12 85, 12 64
+               C 12 40, 48 6, 50 4 Z" 
+            fill="url(#favDropGrad)"/>
+
+      <!-- 2. Relieve y sombra escultórica cóncava sobre la abertura superior -->
+      <path d="M 33 46 
+               C 38 33, 54 28, 68 36
+               C 61 31, 46 29, 36 38
+               C 32 41, 31 44, 33 46 Z" 
+            fill="#ffffff" fill-opacity="0.3"/>
+
+      <path d="M 34 46 
+               C 41 33, 56 31, 71 38
+               C 66 43, 56 46, 44 48
+               C 38 49, 34 48, 34 46 Z" 
+            fill="url(#favHoleShadow)"/>
+
+      <!-- 3. Cinta frontal curvada en 3D (Brazo que fluye hacia el centro) -->
+      <path d="M 22 52 
+               C 19 62, 22 72, 29 79
+               C 36 86, 46 88, 54 86
+               C 44 84, 37 78, 34 70
+               C 31 62, 33 54, 39 48
+               C 44 44, 51 44, 59 45
+               C 64 45.5, 68 47, 72 50
+               C 66 44, 56 41, 47 43
+               C 38 45, 29 48, 22 52 Z" 
+            fill="url(#favRibbon)"/>
+
+      <!-- Sombra debajo de la cinta central -->
+      <path d="M 35 67 
+               C 40 57, 49 51, 61 52
+               C 56 56, 49 63, 45 72
+               C 41 78, 38 74, 35 67 Z" 
+            fill="url(#favUnderShadow)"/>
+
+      <!-- Reflejo suave en la cresta superior exterior -->
+      <path d="M 50 5
+               C 51 7, 73 32, 78 48
+               C 75 36, 61 16, 50 5 Z" 
+            fill="#ffffff" fill-opacity="0.25"/>
+    </g>
+
+    <!-- Pared interior 3D del orificio -->
+    <path d="M 52 54 
+             C 50 59, 48 68, 51 75
+             C 53 79, 56 82, 58 84
+             C 54 82, 50 78, 48 72
+             C 46 64, 48 57, 52 54 Z" 
+          fill="url(#favInnerWall)"/>
+
+    <!-- Bisel de luz interno 3D en el borde interior derecho del aro -->
+    <path d="M 64 58 
+             C 72 63, 73 72, 71 79
+             C 74 74, 74 66, 69 60
+             C 67 58, 64 57, 64 58 Z" 
+          fill="url(#favBevel)"/>
+  </g>
+</svg>
